@@ -1,1 +1,45 @@
+@font-face {
+  font-family: "Alta";
+  src: url(Alta_regular.woff);
+}
 
+body {
+	background: #ece6dc;
+	font-family: Alta, sans-serif;
+	color: #29494b;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#container {
+	margin: 1em;
+	margin-top: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	/*border: #000 solid;*/
+	/*width: 50%;*/
+	height: 95vh;
+}
+
+#logo-container {
+	padding-top: 2em;
+	width: 70%;
+	/*border: #000 solid;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#logo {
+	width: 50%;
+}
+
+p {
+	font-size: small;
+}
