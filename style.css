@@ -24,7 +24,7 @@ body {
 	align-items: center;
 	/*border: #000 solid;*/
 	/*width: 50%;*/
-	height: 95vh;
+	height: 90vh;
 }
 
 #logo-container {
@@ -40,6 +40,34 @@ body {
 	width: 50%;
 }
 
+#contact {
+	list-style: none;
+	color: #29494b;
+}
+
+li {
+	display: inline;
+	font-size: large;
+}
+
+h3 {
+	font-size: large;
+}
+
 p {
 	font-size: small;
+}
+
+button {
+	background: #29494b;
+	color: ece6dc;
+	border: none;
+	font-size: large;
+	font-family: Alta, sans-serif;
+	padding: 10px;
+}
+
+a {
+	color: #ece6dc;
+	text-decoration: none;
 }
